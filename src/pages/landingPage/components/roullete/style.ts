@@ -69,6 +69,13 @@ export const RouletteContainer = styled.div<RouletteContainerProps>`
   @media screen and (max-width: 768px) {
     & {
       right: 50%;
+      width: 35rem;
+      height: 35rem;
+    }
+
+    & .area1, .area2, .area3, .area4 {
+      width: 18rem;
+      height: 18rem;
     }
   }
 
